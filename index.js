@@ -1,4 +1,5 @@
-var util = require('hexo-util');
+const util = require('hexo-util');
+const marked = require('marked');
 
 hexo.extend.filter.register('after_post_render', function(data) {
     data.content =

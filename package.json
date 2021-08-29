@@ -1,6 +1,6 @@
 {
   "name": "hexo-bubble-dialogue",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Hexo plugin to format text into chat-like speech bubbles.",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/watatomo/hexo-bubble#readme",
   "dependencies": {
-    "hexo-util": "^2.5.0"
+    "hexo-util": "^2.5.0",
+    "marked": "^3.0.2"
   }
 }

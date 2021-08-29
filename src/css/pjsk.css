@@ -1,23 +1,26 @@
-[character="Miku"], [character="25-ji Miku"], [character="L/n Miku"], [character="MMJ Miku"], [character="VBS Miku"], [character="WxS Miku"] {
+[character="Miku"], [character="25ji-Miku"], [character="Ln-Miku"], [character="MMJ-Miku"], [character="VBS-Miku"], [character="WxS-Miku"] {
   --color: #33CCBB;
   --light-mode: hsl(173, 54%, 93%);
+}
+[character="Miku"]::before, [character="25ji-Miku"]::before, [character="Ln-Miku"]::before, [character="MMJ-Miku"]::before, [character="VBS-Miku"]::before, [character="WxS-Miku"]::before {
+  content: 'Miku';
 }
 [character="Miku"] {
   --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/miku.png");
 }
-[character="25-ji Miku"] {
+[character="25ji-Miku"] {
   --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/miku_25ji.png");
 }
-[character="L/n Miku"] {
+[character="Ln=Miku"] {
   --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/miku_ln.png");
 }
-[character="MMJ Miku"] {
+[character="MMJ-Miku"] {
   --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/miku_mmj.png");
 }
-[character="VBS Miku"] {
+[character="VBS-Miku"] {
   --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/miku_vbs.png");
 }
-[character="WxS Miku"] {
+[character="WxS-Miku"] {
   --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/miku_wxs.png");
 }
 [character="Rin"] {
