@@ -25,10 +25,8 @@ hexo.extend.filter.register('after_post_render', function(data) {
     return data;
 });
 
-content = ctx.render.renderSync({ text: content, engine: 'markdown' });
-
 hexo.extend.tag.register('bubble', function(args, content) {
-  var charaName =  args[0];
+  var charaName = args[0];
   if (args[1] === undefined) {
     return '<div character="' + charaName + '">' + content + '</div>'
   } else {
