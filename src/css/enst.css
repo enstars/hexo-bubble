@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra:ital@1&display=swap');
+
+[mt="normal"], [mt="rare"] {
+  display: inline-block;
+  width: 25px;
+  height: 29.28px;
+  margin: 0 10px -8px 0 !important;
+  background-size: cover;
+}
+[mt="normal"] {
+  background-image: url("https://cdn.jsdelivr.net/gh/watatomo/img/enst/talkevent_normal.png");
+}
+[mt="rare"] {
+  background-image: url("https://cdn.jsdelivr.net/gh/watatomo/img/enst/talkevent_rare.png");
+}
+[character] p>span.spell {
+  font-family: 'Almendra', serif !important;
+  letter-spacing: .015em;
+  font-size: 1.1em;
+}
+[character="Adonis"] {
+  --color: #915da3;
+  --light-mode: hsl(285, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/adonis.png");
+}
+[character="Aira"] {
+  --color: #fff1cf;
+  --light-mode: hsl(42, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/aira.png");
+}
+[character="Akiomi"] {
+  --color: #915c8b;
+  --light-mode: hsl(307, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/akiomi.png");
+}
+[character="Arashi"] {
+  --color: #edde7b;
+  --light-mode: hsl(52, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/arashi.png");
+}
+[character="Chiaki"] {
+  --color: #e60033;
+  --light-mode: hsl(347, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/chiaki.png");
+}
+[character="Eichi"] {
+  --color: #fff3b8;
+  --light-mode: hsl(50, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/eichi.png");
+}
+[character="Gatekeeper"] {
+  --color: #342b0b;
+  --light-mode: hsl(47, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/gatekeeper.png");
+}
+[character="Hajime"] {
+  --color: #cab8d9;
+  --light-mode: hsl(273, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/hajime.png");
+}
+[character="Hiiro"] {
+  --color: #ba2636;
+  --light-mode: hsl(354, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/hiiro.png");
+}
+[character="HiMERU"] {
+  --color: #89c3eb;
+  --light-mode: hsl(204, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/himeru.png");
+}
+[character="Hinata"] {
+  --color: #eb6ea0;
+  --light-mode: hsl(336, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/hinata.png");
+}
+[character="Hiyori"] {
+  --color: #b8d200;
+  --light-mode: hsl(67, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/hiyori.png");
+}
+[character="Hokuto"] {
+  --color: #0068b7;
+  --light-mode: hsl(206, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/hokuto.png");
+}
+[character="Ibara"] {
+  --color: #74325c;
+  --light-mode: hsl(322, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/ibara.png");
+}
+[character="Izumi"] {
+  --color: #bbdbf3;
+  --light-mode: hsl(206, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/izumi.png");
+}
+[character="Jin"] {
+  --color: #8da0b6;
+  --light-mode: hsl(212, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/jin.png");
+}
+[character="Jun"] {
+  --color: #192f60;
+  --light-mode: hsl(221, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/jun.png");
+}
+[character="Kanata"] {
+  --color: #008db7;
+  --light-mode: hsl(194, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/kanata.png");
+}
+[character="Kaoru"] {
+  --color: #fdd35c;
+  --light-mode: hsl(44, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/kanata.png");
+}
+[character="Keito"] {
+  --color: #316745;
+  --light-mode: hsl(142, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/keito.png");
+}
+[character="Koga"] {
+  --color: #c9caca;
+  --light-mode: #edf0f0;
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/koga.png");
+}
+[character="Kohaku"] {
+  --color: #f4b3c2;
+  --light-mode: hsl(346, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/kohaku.png");
+}
+[character="Kuro"] {
+  --color: #e83929;
+  --light-mode: hsl(0, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/kuro.png");
+}
+[character="Leo"] {
+  --color: #ec6d51;
+  --light-mode: hsl(11, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/leo.png");
+}
+[character="Madara"] {
+  --color: #622d18;
+  --light-mode: hsl(0, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/madara.png");
+}
+[character="Makoto"] {
+  --color: #65ab31;
+  --light-mode: hsl(94, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/makoto.png");
+}
+[character="Mao"] {
+  --color: #941f57;
+  --light-mode: hsl(331, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/mao.png");
+}
+[character="Mayoi"] {
+  --color: #522f60;
+  --light-mode: hsl(283, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/mayoi.png");
+}
+[character="Midori"] {
+  --color: #00533f;
+  --light-mode: hsl(166, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/midori.png");
+}
+[character="Mika"] {
+  --color: #006a6c;
+  --light-mode: hsl(181, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/mika.png");
+}
+[character="Mitsuru"] {
+  --color: #ed6d35;
+  --light-mode: hsl(18, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/mitsuru.png");
+}
+[character="Nagisa"] {
+  --color: #a73836;
+  --light-mode: hsl(1, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/nagisa.png");
+}
+[character="Natsume"] {
+  --color: #d70035;
+  --light-mode: hsl(345, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/natsume.png");
+}
+[character="Nazuna"] {
+  --color: #ffec47;
+  --light-mode: hsl(54, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/nazuna.png");
+}
+[character="Niki"] {
+  --color: #507ea4;
+  --light-mode: hsl(207, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/niki.png");
+}
+[character="Rei"] {
+  --color: #47266e;
+  --light-mode: hsl(268, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/rei.png");
+}
+[character="Rinne"] {
+  --color: #b7282e;
+  --light-mode: hsl(357, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/rinne.png");
+}
+[character="Ritsu"] {
+  --color: #001e43;
+  --light-mode: hsl(213, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/ritsu.png");
+}
+[character="Seiya"] {
+  --color: #07467f;
+  --light-mode: hsl(209, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/tomoya.png");
+}
+[character="Shinobu"] {
+  --color: #ffdc00;
+  --light-mode: hsl(52, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/shinobu.png");
+}
+[character="Shu"] {
+  --color: #e3acae;
+  --light-mode: hsl(358, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/shu.png");
+}
+[character="Sora"] {
+  --color: #fff352;
+  --light-mode: hsl(56, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/sora.png");
+}
+[character="Souma"] {
+  --color: #5654a2;
+  --light-mode: hsl(242, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/souma.png");
+}
+[character="Subaru"] {
+  --color: #f3981d;
+  --light-mode: hsl(34, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/subaru.png");
+}
+[character="Tatsumi"] {
+  --color: #7ebea5;
+  --light-mode: hsl(0, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/tatsumi.png");
+}
+[character="Tetora"] {
+  --color: #302833;
+  --light-mode: #f0eef1;
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/tetora.png");
+}
+[character="Tomoya"] {
+  --color: #eedcb3;
+  --light-mode: hsl(42, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/tomoya.png");
+}
+[character="Tori"] {
+  --color: #f5b2b2;
+  --light-mode: hsl(0, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/tori.png");
+}
+[character="Tsukasa"] {
+  --color: #942343;
+  --light-mode: hsl(343, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/tsukasa.png");
+}
+[character="Tsumugi"] {
+  --color: #00608d;
+  --light-mode: hsl(199, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/tsumugi.png");
+}
+[character="Wataru"] {
+  --color: #a1d8e2;
+  --light-mode: hsl(189, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/wataru.png");
+}
+[character="Yuta"] {
+  --color: #00a1e9;
+  --light-mode: hsl(199, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/yuta.png");
+}
+[character="Yuzuru"] {
+  --color: #3e62ad;
+  --light-mode: hsl(221, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/enst/yuzuru.png");
+}

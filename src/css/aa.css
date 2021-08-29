@@ -1,0 +1,12 @@
+@import url("https://cdn.jsdelivr.net/gh/watatomo/mashirout/bubble.css");
+
+[character="Phoenix"] {
+  --color: #4c81ef;
+  --light-mode: hsl(220, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/aa/phoenix.png");
+}
+[character="Trucy"] {
+  --color: #65d2fa;
+  --light-mode: hsl(196, 54%, 93%);
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/aa/trucy.png");
+}
