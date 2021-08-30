@@ -75,10 +75,10 @@
 [character] p:last-of-type {
 	margin-bottom: 1.72em;
 }
-[character] p>span.hold {
+span.hold {
 	display: inline-block;
 }
-[character] p>span.thought {
+span.thought {
 	color: #5555c0 !important;
 }
 @media (max-width: 650px) {

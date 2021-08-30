@@ -7,20 +7,7 @@ hexo.extend.filter.register('after_post_render', function(data) {
             'link',
             {
                 rel: 'stylesheet',
-                type: 'text/css',
                 href: `https://cdn.jsdelivr.net/npm/hexo-bubble-dialogue/src/css/bubble.min.css`
-            }) +
-        data.content;
-    return data;
-});
-hexo.extend.filter.register('after_post_render', function(data) {
-    data.content =
-        util.htmlTag(
-            'link',
-            {
-                rel: 'stylesheet',
-                type: 'text/css',
-                href: `https://cdn.jsdelivr.net/npm/hexo-bubble-dialogue/src/css/enst.min.css`
             }) +
         data.content;
     return data;
@@ -28,7 +15,10 @@ hexo.extend.filter.register('after_post_render', function(data) {
 
 hexo.extend.tag.register('bubble', function(args, content) {
   var charaName = args[0];
-  var parsedContent = marked(content);
+  var parsedContent = content.replace(/<thought>/g, "<span class='thought'>").replace(/<\/thought\>/g, "</span>").replace(/<span class='thought'>/g, "\<span class='thought'\>");
+  parsedContent = parsedContent.replace(/<spell>/g, "<span class='spell'>").replace(/<\/spell>/g, "</span>").replace(/<span class='spell'>/g, "\<span class='spell'\>").replace(/<\/span>/g, "\<\/span\>").replace(/<hold>/g, "<span class='hold'>").replace(/<\/hold\>/g, "</span>");
+
+  parsedContent = marked(parsedContent);
 
   if (args[1] === undefined) {
     return `<div character="${charaName}">${parsedContent}</div>`
