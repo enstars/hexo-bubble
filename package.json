@@ -1,6 +1,6 @@
 {
   "name": "hexo-bubble",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Hexo tag plugin to format text into chat-like speech bubbles.",
   "main": "index.js",
   "scripts": {
