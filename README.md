@@ -63,7 +63,7 @@ It's possible to use your own css for the variables. Just follow the format belo
 ```
 
 **Output**
-![Wataru and Tomoya](https://raw.githubusercontent.com/watatomo/hexo-bubble/master/src/img/1.png)
+![Wataru and Tomoya](https://raw.githubusercontent.com/watatomo/hexo-bubble/main/src/img/1.png)
 
 **Story:** [Dead End Land](https://watatomo.github.io/tl/post/dead_end_land/7/)
 
@@ -87,7 +87,7 @@ It's possible to use your own css for the variables. Just follow the format belo
 ```
 
 **Output**
-![Nazuna and Izumi](https://raw.githubusercontent.com/watatomo/hexo-bubble/master/src/img/2.png)
+![Nazuna and Izumi](https://raw.githubusercontent.com/watatomo/hexo-bubble/main/src/img/2.png)
 
 **Story:** [RELOADED](https://watatomo.github.io/tl/post/reloaded/6/)
 
@@ -109,7 +109,7 @@ It's possible to use your own css for the variables. Just follow the format belo
 ```
 
 **Output**
-![Natsume and Tsumugi](https://raw.githubusercontent.com/watatomo/hexo-bubble/master/src/img/3.png)
+![Natsume and Tsumugi](https://raw.githubusercontent.com/watatomo/hexo-bubble/main/src/img/3.png)
 
 **Story:** [SHINSEKAI -STRANGE NEW WORLD-](https://fortunebanquet.tumblr.com/post/658710005507375104/shinsekai-strange-new-world-empire-of-fantasy-7)
 

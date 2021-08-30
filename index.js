@@ -7,7 +7,7 @@ hexo.extend.filter.register('after_post_render', function(data) {
             'link',
             {
                 rel: 'stylesheet',
-                href: `https://cdn.jsdelivr.net/npm/hexo-bubble-dialogue/src/css/bubble.min.css`
+                href: `https://cdn.jsdelivr.net/npm/hexo-bubble/src/css/bubble.min.css`
             }) +
         data.content;
     return data;
