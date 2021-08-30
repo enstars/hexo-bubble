@@ -20,7 +20,7 @@
   --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/umas/cafe.png");
 }
 [character="Cafe"]::before {
-  content: 'Manhattan Cafe'
+  content: 'Manhattan Cafe';
 }
 [character="Rudolf"] {
   --color: #1d7864;
