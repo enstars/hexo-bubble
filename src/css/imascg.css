@@ -13,9 +13,21 @@
   --light-mode: hsl(313, 54%, 93%);
   --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/imascg/riamu.png");
 }
-[character="Akari & Akira"] {
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/imascg/akari.png");
+[character="Akari-Akira"] {
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/imascg/akari-akira.png");
 }
-[character="Akira & Riamu"] {
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/imascg/akari.png");
+[character="Akari-Akira"]::before {
+  content: 'Akari & Akira';
+}
+[character="Akira-Riamu"] {
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/imascg/akira-riamu.png");
+}
+[character="Akira-Riamu"]::before {
+  content: 'Akira & Riamu';
+}
+[character="Akari-Riamu"] {
+  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/imascg/akari-riamu.png");
+}
+[character="Akari-Riamu"]::before {
+  content: 'Akari & Riamu';
 }

@@ -11,7 +11,7 @@
   --light-mode: hsl(332, 54%, 93%);
   --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/umas/bakushin.png");
 }
-[character="Sakura Bakushin O"]::before {
+[character="BakushinO"]::before {
   content: 'Sakura Bakushin O';
 }
 [character="Cafe"] {
