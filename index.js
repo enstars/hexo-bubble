@@ -28,8 +28,10 @@ hexo.extend.filter.register('after_post_render', function(data) {
 
 hexo.extend.tag.register('bubble', function(args, content) {
   var charaName = args[0];
+  var parsedContent = marked(content);
+
   if (args[1] === undefined) {
-    return '<div character="' + charaName + '">' + content + '</div>'
+    return `<div character="${charaName}">${parsedContent}</div>`
   } else {
-  return '<div character="' + charaName + '"' + args[1] + '>' + content + '</div>'};
+  return `<div character="${charaName}" ${args[1]}>${parsedContent}</div>`};
 }, {ends: true});
