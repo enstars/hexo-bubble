@@ -1,16 +1,19 @@
 [character="Akari"] {
   --color: #e71d0f;
   --light-mode: hsl(4, 54%, 93%);
+  --dark-mode: hsl(4, 12%, 25%);
   --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/imascg/akari.png");
 }
 [character="Akira"] {
   --color: #849fbc;
   --light-mode: hsl(211, 54%, 93%);
+  --dark-mode: hsl(211, 12%, 25%);
   --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/imascg/akira.png");
 }
 [character="Riamu"] {
   --color: #e39ed4;
   --light-mode: hsl(313, 54%, 93%);
+  --dark-mode: hsl(313, 12%, 25%);
   --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/imascg/riamu.png");
 }
 [character="Akari-Akira"] {
