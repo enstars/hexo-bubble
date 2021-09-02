@@ -13,7 +13,7 @@ npm i hexo-bubble --save
 ### Syntax
 
 ```markdown
-{% bubble [Character] [Attribute] %}
+{% bubble [Character] [attribute] %}
   You can use *Markdown* in the text.
 
   <thought>Wrap around thought bubbles with these tags to give the text a blue color!</thought>
@@ -23,22 +23,22 @@ npm i hexo-bubble --save
 ```
 
 - `[Character]`: Charater name. No spaces within the name.
-- `[Attribute]`: **Optional.** Special styling for the bubbles if the character is off-screen (hidden) or unknown (but the reader knows who they are). Available options are `unknown` and `hidden`. It must be *lowercase*.
-- `<thought></thought`: Special tags to wrap around thoughts. It's in a blue color.
-- `<hold></hold>`: Special tag to prevent special characters being cut-off by word wrap.
+- `[attribute]`: **Optional.** Special styling for the bubbles if the character is off-screen (hidden) or unknown (but the reader knows who they are). Available options are `unknown` and `hidden`. It must be *lowercase*.
+- `<thought></thought`, `<th></th>`: Special tag to wrap around thoughts. It's in a blue color.
+- `<hold></hold>`, `<ho></ho>`: Special tag to prevent special characters being cut-off by word wrap.
 
 ### Options
 
 To use a specific series' css file for styling, insert `<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-bubble/src/css/{series}.min.css">` at the *beginning* of your post or *directly under* your `<!-- more -->` if the tag is being used there. Complete series css files are `enst` (Ensemble Stars) and `pjsk` (Project Sekai).
 
-`enst.css` has a special font for Natsume's spells. Use the `<spell></spell>` tags to activate it!
+`enst.css` has a special font for Natsume's spells. Use the `<spell></spell>` or `<sp></sp>` tags to activate it!
 
 ## Customization
 
 It's possible to use your own css for the variables. Just follow the format below.
 
 ```css
-[character="NAME"] {
+[character="NAME"][attribute] {
   --color: COLOR;
   --light-mode: COLOR;
   --icon: url("URL");
@@ -46,6 +46,8 @@ It's possible to use your own css for the variables. Just follow the format belo
 ```
 
 ## Examples
+
+**LIVE VERSION:** [TL archive](https://watatomo.github.io/tl/post/hexo-bubble/)
 
 **Input**
 ```markdown
