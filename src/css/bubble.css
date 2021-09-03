@@ -3,7 +3,7 @@
 	display: block;
 }
 [character] p {
-	margin: 0px 0px .4em 90px;
+	margin: 0 0 .4em 90px;
 	background: var(--light-mode, #f1f1f1);
 	color: #222;
 	padding: .9em;
@@ -32,8 +32,8 @@
 	content: '';
 	display: block;
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	left: 0;
 	width: 70px;
 	height: 70px;
 	background-color: var(--color, #b3b3b3);
@@ -43,8 +43,8 @@
 	content: '';
 	display: block;
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	left: 0;
 	width: 70px;
 	height: 70px;
 	background: 100%/100% var(--icon, url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/unknown.png"));
@@ -75,10 +75,10 @@
 [character] p:last-of-type {
 	margin-bottom: 1.72em;
 }
-span.hold {
+.hold {
 	display: inline-block;
 }
-span.thought {
+.thought {
 	color: #5555c0 !important;
 }
 @media (max-width: 650px) {
@@ -86,7 +86,7 @@ span.thought {
 		margin-left: 70px;
 	}
 	[character] p {
-		margin: 0px 0px .4em 65px;
+		margin: 0 0 .4em 65px;
 		padding: .72em;
 	}
 	[character] p:first-child::before, [character] p:first-child::after {

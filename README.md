@@ -29,7 +29,7 @@ npm i hexo-bubble --save
 
 ### Options
 
-To use a specific series' css file for styling, insert `<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-bubble/src/css/{series}.min.css">` at the *beginning* of your post or *directly under* your `<!-- more -->` if the tag is being used there. Complete series css files are `enst` (Ensemble Stars) and `pjsk` (Project Sekai).
+To use a specific series' css file for styling, insert `<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-bubble@latest/src/css/{series}.min.css">` at the *beginning* of your post or *directly under* your `<!-- more -->` if the tag is being used there. Complete series css files are `enst` (Ensemble Stars) and `pjsk` (Project Sekai).
 
 `enst.css` has a special font for Natsume's spells. Use the `<spell></spell>` or `<sp></sp>` tags to activate it!
 
