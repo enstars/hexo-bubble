@@ -1,18 +1,6 @@
 const util = require('hexo-util');
 const marked = require('marked');
 
-hexo.extend.filter.register('after_post_render', function(data) {
-    data.content =
-        util.htmlTag(
-            'link',
-            {
-                rel: 'stylesheet',
-                href: `https://cdn.jsdelivr.net/npm/hexo-bubble@latest/src/css/bubble.min.css`
-            }) +
-        data.content;
-    return data;
-});
-
 hexo.extend.tag.register('bubble', function(args, content) {
   var charaName = args[0];
   var parsedContent = content.replace(/<thought>/g, "<span class='thought'>").replace(/<\/thought\>/g, "</span>").replace(/<span class='thought'>/g, "\<span class='thought'\>").replace(/<th>/g, "<span class='thought'>").replace(/<\/th\>/g, "</span>");

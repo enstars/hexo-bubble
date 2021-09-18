@@ -1,55 +1,55 @@
 .trainer p {
-  padding: 1em;
-  background: #eee;
-  border-radius: 10px;
-  display: table;
-  color: #222;
+    padding: 1em;
+    background: #eee;
+    border-radius: 10px;
+    display: table;
+    color: #222;
 }
 .trainer p:last-of-type {
-	margin-bottom: 1.72em;
+    margin-bottom: 1.72em;
 }
 [character="BakushinO"] {
-  --color: #ee70ab;
-  --light-mode: hsl(332, 54%, 93%);
-  --dark-mode: hsl(332, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/umas/bakushin.png");
+    --color: #ee70ab;
+    --light-mode: hsl(332, 54%, 93%);
+    --dark-mode: hsl(332, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/umas/bakushin.png");
 }
 [character="BakushinO"]::before {
-  content: 'Sakura Bakushin O';
+    content: 'Sakura Bakushin O';
 }
 [character="Cafe"] {
-  --color: #4a4642;
-  --light-mode: hsl(30, 9%, 94%);
-  --dark-mode: hsl(30, 5%, 24%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/umas/cafe.png");
+    --color: #4a4642;
+    --light-mode: hsl(30, 9%, 94%);
+    --dark-mode: hsl(30, 5%, 24%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/umas/cafe.png");
 }
 [character="Cafe"]::before {
-  content: 'Manhattan Cafe';
+    content: 'Manhattan Cafe';
 }
 [character="Rudolf"] {
-  --color: #1d7864;
-  --light-mode: hsl(167, 54%, 93%);
-  --dark-mode: hsl(167, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/umas/rudolf.png");
+    --color: #1d7864;
+    --light-mode: hsl(167, 54%, 93%);
+    --dark-mode: hsl(167, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/umas/rudolf.png");
 }
 [character="Rudolf"]::before {
-  content: 'Symboli Rudolf';
+    content: 'Symboli Rudolf';
 }
 [character="Shakur"] {
-  --color: #255ab4;
-  --light-mode: hsl(218, 54%, 93%);
-  --dark-mode: hsl(218, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/umas/shakur.png");
+    --color: #255ab4;
+    --light-mode: hsl(218, 54%, 93%);
+    --dark-mode: hsl(218, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/umas/shakur.png");
 }
 [character="Shakur"]::before {
-  content: 'Air Shakur';
+    content: 'Air Shakur';
 }
 [character="Tachyon"] {
-  --color: #36b2b6;
-  --light-mode: hsl(182, 54%, 93%);
-  --dark-mode: hsl(182, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/umas/tachyon.png");
+    --color: #36b2b6;
+    --light-mode: hsl(182, 54%, 93%);
+    --dark-mode: hsl(182, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/umas/tachyon.png");
 }
 [character="Tachyon"]::before {
-  content: 'Agnes Tachyon';
+    content: 'Agnes Tachyon';
 }

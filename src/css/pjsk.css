@@ -1,176 +1,176 @@
 [character="Miku"], [character="25ji-Miku"], [character="Ln-Miku"], [character="MMJ-Miku"], [character="VBS-Miku"], [character="WxS-Miku"] {
-  --color: #33CCBB;
-  --light-mode: hsl(173, 54%, 93%);
-  --dark-mode: hsl(173, 12%, 25%);
+    --color: #33CCBB;
+    --light-mode: hsl(173, 54%, 93%);
+    --dark-mode: hsl(173, 12%, 25%);
 }
 [character="Miku"]::before, [character="25ji-Miku"]::before, [character="Ln-Miku"]::before, [character="MMJ-Miku"]::before, [character="VBS-Miku"]::before, [character="WxS-Miku"]::before {
-  content: 'Miku';
+    content: 'Miku';
 }
 [character="Miku"] {
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/miku.png");
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/miku.png");
 }
 [character="25ji-Miku"] {
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/miku_25ji.png");
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/miku_25ji.png");
 }
 [character="Ln=Miku"] {
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/miku_ln.png");
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/miku_ln.png");
 }
 [character="MMJ-Miku"] {
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/miku_mmj.png");
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/miku_mmj.png");
 }
 [character="VBS-Miku"] {
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/miku_vbs.png");
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/miku_vbs.png");
 }
 [character="WxS-Miku"] {
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/miku_wxs.png");
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/miku_wxs.png");
 }
 [character="Rin"] {
-  --color: #FFCC11;
-  --light-mode: hsl(47, 54%, 93%);
-  --dark-mode: hsl(47, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/rin.png");
+    --color: #FFCC11;
+    --light-mode: hsl(47, 54%, 93%);
+    --dark-mode: hsl(47, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/rin.png");
 }
 [character="Len"] {
-  --color: #FFEE11;
-  --light-mode: hsl(56, 54%, 93%);
-  --dark-mode: hsl(56, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/len.png");
+    --color: #FFEE11;
+    --light-mode: hsl(56, 54%, 93%);
+    --dark-mode: hsl(56, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/len.png");
 }
 [character="Luka"] {
-  --color: #FFBBCC;
-  --light-mode: hsl(345, 54%, 93%);
-  --dark-mode: hsl(345, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/luka.png");
+    --color: #FFBBCC;
+    --light-mode: hsl(345, 54%, 93%);
+    --dark-mode: hsl(345, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/luka.png");
 }
 [character="Meiko"] {
-  --color: #DD4444;
-  --light-mode: hsl(0, 54%, 93%);
-  --dark-mode: hsl(0, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/meiko.png");
+    --color: #DD4444;
+    --light-mode: hsl(0, 54%, 93%);
+    --dark-mode: hsl(0, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/meiko.png");
 }
 [character="Kaito"] {
-  --color: #3366CC;
-  --light-mode: hsl(220, 54%, 93%);
-  --dark-mode: hsl(220, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/kaito.png");
+    --color: #3366CC;
+    --light-mode: hsl(220, 54%, 93%);
+    --dark-mode: hsl(220, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/kaito.png");
 }
 [character="Ichika"] {
-  --color: #33AAEE;
-  --light-mode: hsl(202, 54%, 93%);
-  --dark-mode: hsl(202, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/ichika.png");
+    --color: #33AAEE;
+    --light-mode: hsl(202, 54%, 93%);
+    --dark-mode: hsl(202, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/ichika.png");
 }
 [character="Saki"] {
-  --color: #FFDD44;
-  --light-mode: hsl(49, 54%, 93%);
-  --dark-mode: hsl(49, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/saki.png");
+    --color: #FFDD44;
+    --light-mode: hsl(49, 54%, 93%);
+    --dark-mode: hsl(49, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/saki.png");
 }
 [character="Honami"] {
-  --color: #EE6666;
-  --light-mode: hsl(0, 54%, 93%);
-  --dark-mode: hsl(0, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/honami.png");
+    --color: #EE6666;
+    --light-mode: hsl(0, 54%, 93%);
+    --dark-mode: hsl(0, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/honami.png");
 }
 [character="Shiho"] {
-  --color: #BBDD22;
-  --light-mode: hsl(71, 54%, 93%);
-  --dark-mode: hsl(71, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/shiho.png");
+    --color: #BBDD22;
+    --light-mode: hsl(71, 54%, 93%);
+    --dark-mode: hsl(71, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/shiho.png");
 }
 [character="Minori"] {
-  --color: #FFCCAA;
-  --light-mode: hsl(24, 54%, 93%);
-  --dark-mode: hsl(24, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/minori.png");
+    --color: #FFCCAA;
+    --light-mode: hsl(24, 54%, 93%);
+    --dark-mode: hsl(24, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/minori.png");
 }
 [character="Haruka"] {
-  --color: #99CCFF;
-  --light-mode: hsl(210, 54%, 93%);
-  --dark-mode: hsl(210, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/haruka.png");
+    --color: #99CCFF;
+    --light-mode: hsl(210, 54%, 93%);
+    --dark-mode: hsl(210, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/haruka.png");
 }
 [character="Airi"] {
-  --color: #FFAACC;
-  --light-mode: hsl(336, 54%, 93%);
-  --dark-mode: hsl(336, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/airi.png");
+    --color: #FFAACC;
+    --light-mode: hsl(336, 54%, 93%);
+    --dark-mode: hsl(336, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/airi.png");
 }
 [character="Shizuku"] {
-  --color: #99EEDD;
-  --light-mode: hsl(168, 54%, 93%);
-  --dark-mode: hsl(168, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/shizuku.png");
+    --color: #99EEDD;
+    --light-mode: hsl(168, 54%, 93%);
+    --dark-mode: hsl(168, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/shizuku.png");
 }
 [character="Kohane"] {
-  --color: #FF6699;
-  --light-mode: hsl(340, 54%, 93%);
-  --dark-mode: hsl(340, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/kohane.png");
+    --color: #FF6699;
+    --light-mode: hsl(340, 54%, 93%);
+    --dark-mode: hsl(340, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/kohane.png");
 }
 [character="An"] {
-  --color: #00BBDD;
-  --light-mode: hsl(189, 54%, 93%);
-  --dark-mode: hsl(189, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/an.png");
+    --color: #00BBDD;
+    --light-mode: hsl(189, 54%, 93%);
+    --dark-mode: hsl(189, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/an.png");
 }
 [character="Akito"] {
-  --color: #FF7722;
-  --light-mode: hsl(23, 54%, 93%);
-  --dark-mode: hsl(23, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/akito.png");
+    --color: #FF7722;
+    --light-mode: hsl(23, 54%, 93%);
+    --dark-mode: hsl(23, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/akito.png");
 }
 [character="Toya"] {
-  --color: #0077DD;
-  --light-mode: hsl(208, 54%, 93%);
-  --dark-mode: hsl(208, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/toya.png");
+    --color: #0077DD;
+    --light-mode: hsl(208, 54%, 93%);
+    --dark-mode: hsl(208, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/toya.png");
 }
 [character="Emu"] {
-  --color: #FF66BB;
-  --light-mode: hsl(327, 54%, 93%);
-  --dark-mode: hsl(327, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/emu.png");
+    --color: #FF66BB;
+    --light-mode: hsl(327, 54%, 93%);
+    --dark-mode: hsl(327, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/emu.png");
 }
 [character="Nene"] {
-  --color: #33DD99;
-  --light-mode: hsl(156, 54%, 93%);
-  --dark-mode: hsl(156, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/nene.png");
+    --color: #33DD99;
+    --light-mode: hsl(156, 54%, 93%);
+    --dark-mode: hsl(156, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/nene.png");
 }
 [character="Rui"] {
-  --color: #BB88EE;
-  --light-mode: hsl(270, 54%, 93%);
-  --dark-mode: hsl(270, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/rui.png");
+    --color: #BB88EE;
+    --light-mode: hsl(270, 54%, 93%);
+    --dark-mode: hsl(270, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/rui.png");
 }
 [character="Tsukasa"] {
-  --color: #FFBB00;
-  --light-mode: hsl(44, 54%, 93%);
-  --dark-mode: hsl(44, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/tsukasa.png");
+    --color: #FFBB00;
+    --light-mode: hsl(44, 54%, 93%);
+    --dark-mode: hsl(44, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/tsukasa.png");
 }
 [character="Kanade"] {
-  --color: #BB6688;
-  --light-mode: hsl(336, 54%, 93%);
-  --dark-mode: hsl(336, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/kanade.png");
+    --color: #BB6688;
+    --light-mode: hsl(336, 54%, 93%);
+    --dark-mode: hsl(336, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/kanade.png");
 }
 [character="Mafuyu"] {
-  --color: #8888CC;
-  --light-mode: hsl(240, 54%, 93%);
-  --dark-mode: hsl(240, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/mafuyu.png");
+    --color: #8888CC;
+    --light-mode: hsl(240, 54%, 93%);
+    --dark-mode: hsl(240, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/mafuyu.png");
 }
 [character="Ena"] {
-  --color: #CCAA88;
-  --light-mode: hsl(30, 54%, 93%);
-  --dark-mode: hsl(30, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/ena.png");
+    --color: #CCAA88;
+    --light-mode: hsl(30, 54%, 93%);
+    --dark-mode: hsl(30, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/ena.png");
 }
 [character="Mizuki"] {
-  --color: #DDAACC;
-  --light-mode: hsl(320, 54%, 93%);
-  --dark-mode: hsl(320, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/mizuki.png");
+    --color: #DDAACC;
+    --light-mode: hsl(320, 54%, 93%);
+    --dark-mode: hsl(320, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/pjsk/mizuki.png");
 }

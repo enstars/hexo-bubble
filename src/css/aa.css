@@ -1,14 +1,13 @@
 @import url("https://cdn.jsdelivr.net/gh/watatomo/mashirout/bubble.css");
-
 [character="Phoenix"] {
-  --color: #4c81ef;
-  --light-mode: hsl(220, 54%, 93%);
-  --dark-mode: hsl(220, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/aa/phoenix.png");
+    --color: #4c81ef;
+    --light-mode: hsl(220, 54%, 93%);
+    --dark-mode: hsl(220, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/aa/phoenix.png");
 }
 [character="Trucy"] {
-  --color: #65d2fa;
-  --light-mode: hsl(196, 54%, 93%);
-  --dark-mode: hsl(196, 12%, 25%);
-  --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/aa/trucy.png");
+    --color: #65d2fa;
+    --light-mode: hsl(196, 54%, 93%);
+    --dark-mode: hsl(196, 12%, 25%);
+    --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/aa/trucy.png");
 }

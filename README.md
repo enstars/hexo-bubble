@@ -10,6 +10,8 @@ npm i hexo-bubble --save
 
 ## Usage
 
+Place `<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/hexo-bubble@latest/src/css/bubble.min.css">` at the *beginning* of your post or *directly under* your `<!-- more -->` if the tag is being used there.
+
 ### Syntax
 
 ```markdown
