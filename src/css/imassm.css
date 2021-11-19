@@ -1,18 +1,20 @@
 [character="Kaoru"] {
     --color: #1a47bc;
-    --light-mode: hsl(223, 54%, 93%);
-    --dark-mode: hsl(223, 12%, 25%);
+    --hue: 223;
+    --name: "Kaoru";
     --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/imassm/kaoru.png");
 }
+
 [character="Teru"] {
     --color: #e41e1b;
-    --light-mode: hsl(1, 54%, 93%);
-    --dark-mode: hsl(1, 12%, 25%);
+    --hue: 1;
+    --name: "Teru";
     --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/imassm/teru.png");
 }
+
 [character="Tsubasa"] {
     --color: #3dae2a;
-    --light-mode: hsl(111, 54%, 93%);
-    --dark-mode: hsl(111, 12%, 25%);
+    --hue: 111;
+    --name: "Tsubasa";
     --icon: url("https://cdn.jsdelivr.net/gh/watatomo/img/icon/imassm/tsubasa.png");
 }

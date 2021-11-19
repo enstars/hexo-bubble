@@ -42,7 +42,8 @@ It's possible to use your own css for the variables. Just follow the format belo
 ```css
 [character="NAME"][attribute] {
   --color: COLOR;
-  --light-mode: COLOR;
+  --hue: HUE;
+  --name: "NAME";
   --icon: url("URL");
 }
 ```
@@ -54,15 +55,15 @@ It's possible to use your own css for the variables. Just follow the format belo
 **Input**
 ```markdown
 {% bubble Wataru %}
-  <thought>(Haha. Could you be trying to say, "I really like you, Hibiki-senpai! You're so cool! I love you!"...?)</thought>
+  <th>(Haha. Could you be trying to say, "I really like you, Hibiki-senpai! You're so cool! I love you!"...?)</th>
 
-  <thought>(My, you're far too kind. Thank you, Tomoya<hold>-kun♪</hold> Kiss...☆)</thought>
+  <th>(My, you're far too kind. Thank you, Tomoya<hold>-kun♪</hold> Kiss...☆)</th>
 {% endbubble %}
 
 {% bubble Tomoya %}
-  <thought>(Uhm, I think there's a big misunderstanding here?! What the hell was that weird signal I got back?)</thought>
+  <th>(Uhm, I think there's a big misunderstanding here?! What the hell was that weird signal I got back?)</th>
 
-  <thought>(Oh, whatever. This signal I sent can only mean one thing! The rest is up to you, Hibiki-senpai!)</thought>
+  <th>(Oh, whatever. This signal I sent can only mean one thing! The rest is up to you, Hibiki-senpai!)</th>
 {% endbubble %}
 ```
 
@@ -100,11 +101,11 @@ It's possible to use your own css for the variables. Just follow the format belo
 {% bubble Natsume %}
   HoweVER. Within a game where everything is proGRAMMED, everything works with much simpler loGIC.
 
-  In this world where everything obeys my every comMAND, I will reign as god and control everyTHING. I'll make sure they can live in peace and joy within this miniature <hold>garDEN—</hold>
+  In this world where everything obeys my every comMAND, I will reign as god and control everyTHING. I'll make sure they can live in peace and joy within this miniature <ho>garDEN—</ho>
 
   And I will give everyone an equal opportunity to experience their own happily ever afTER.
 
-  <spell>—Welcome to paradise, my <hold>idols♪</hold></spell>
+  <sp>—Welcome to paradise, my <ho>idols♪</ho></sp>
 {% endbubble %}
 
 {% bubble Tsumugi %}
@@ -116,11 +117,6 @@ It's possible to use your own css for the variables. Just follow the format belo
 ![Natsume and Tsumugi](https://raw.githubusercontent.com/watatomo/hexo-bubble/main/src/img/3.png)
 
 **Story:** [SHINSEKAI -STRANGE NEW WORLD-](https://fortunebanquet.tumblr.com/post/658710005507375104/shinsekai-strange-new-world-empire-of-fantasy-7)
-
-## To-do
-
-- [ ] Dark mode toggle
-- [ ] Configuration options, i.e. circle icons
 
 ## Acknowledgements
 
